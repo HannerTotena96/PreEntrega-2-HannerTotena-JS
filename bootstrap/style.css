@@ -66,3 +66,20 @@ body {
     background-clip: padding-box; /* Asegura que el fondo de la tarjeta no cubra el borde */
     margin-bottom: 20px; /* Ajusta el espacio entre filas de tarjetas */
 }
+.text-justify {
+    text-align: justify;
+
+}
+.small-img {
+    max-width: 9vh; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.fixed-img{
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: 30vh; /* Ajustar altura fija */
+    object-fit: cover; 
+
+}
+.Lyric{
+    font-family: 'Poppins', sans-serif; 
+}

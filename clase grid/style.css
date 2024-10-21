@@ -1,0 +1,33 @@
+.contenedor {
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3, 10rem);
+height: 10rem;
+
+grid-template-areas: 
+"cajauno cajauno cajados"
+"cajatres cajacuatro cajacuatro"
+"cajacinco cajacinco cajacinco"
+;
+}
+
+.contenedor div{
+    border: 1px solid black;
+    background-color: aliceblue;
+
+}
+.primeracaja {
+    grid-area: cajauno;
+}
+.segundacaja {
+    grid-area: cajados;
+}
+.terceracaja {
+    grid-area: cajatres;
+}
+.cuartacaja{
+    grid-area: cajacuatro;
+}
+.quintacaja{
+    grid-area: cajacinco;
+}

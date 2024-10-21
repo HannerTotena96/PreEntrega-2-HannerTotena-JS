@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    /*Grid Areas*/
+    grid-template-areas:
+    "header header header"
+    "nav main main"
+    "aside aside aside"
+    "footer footer footer"
+    ;
+    gap: 10px;
+
+    .header{
+        grid-area: header;
+        background-color: #8ca0ff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav{
+        grid-area: nav;
+        background-color: #ff8c8c;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .main{
+        grid-area: main;
+        background-color: #8cffc7;
+        padding: 20px;
+        text-align: center;
+    }
+    .aside{
+        grid-area: aside;
+        background-color: #ffeb8c;
+        padding: 20px;
+        text-align: center;
+    }
+    footer{
+        grid-area: footer;
+        background-color: #d08cff;
+        padding: 20px;
+        text-align: center; 
+    }
+
+}

@@ -11,7 +11,7 @@ body {
  }
 
  .overflow-hidden {
-    overflow-x: hidden; /* Evita desbordamiento horizontal */
+    overflow-x: hidden; 
 }
 .nav-hover:hover {
     color: blue; 
@@ -23,12 +23,12 @@ body {
     transition: color 0.3s ease;
 }
 .social-media a {
-    font-size: 1.6rem; /* Tamaño de los iconos */
-    color: #000; /* Color negro por defecto */
+    font-size: 1.6rem; 
+    color: #000; 
 }
 
 .social-media a:hover {
-    color: blue; /* Color azul al pasar el cursor sobre el icono */
+    color: blue; 
 }
 .bgimg img{
     mix-blend-mode: multiply;
@@ -44,39 +44,39 @@ body {
 .intro {
     font-family: 'Poppins', sans-serif; 
     font-size: 2.5rem; 
-    color: #333; /* Color del texto */
-    font-weight: 700; /* Hace el texto un poco más grueso */
-    letter-spacing: 3px; /* Espaciado entre letras */
-    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; 
+    font-weight: 700; 
+    letter-spacing: 3px; 
+    line-height: 1.5; 
     text-align: center;
     }
 .custom-carousel-img {
-    height: 50vh; /* Fija la altura a la mitad del viewport */
-    object-fit: cover; /* Mantiene la proporción y cubre todo el espacio */
-    width: 100%; /* Asegura que la imagen ocupe el ancho completo */
+    height: 50vh; 
+    object-fit: cover; 
+    width: 100%; 
 }
 .custom-card-img {
-    height: 50vh; /* Ajusta la altura de la imagen */
-    object-fit: cover; /* Mantiene la proporción de la imagen */
+    height: 50vh; 
+    object-fit: cover; 
     background-color: transparent;
 }
 .custom-card {
-    border: 10px solid transparent; /* Ajusta el grosor del borde según lo necesites */
-    border-radius: 5px; /* Opción para un borde redondeado */
-    background-clip: padding-box; /* Asegura que el fondo de la tarjeta no cubra el borde */
-    margin-bottom: 20px; /* Ajusta el espacio entre filas de tarjetas */
+    border: 10px solid transparent; 
+    border-radius: 5px;
+    background-clip: padding-box; 
+    margin-bottom: 20px;
 }
 .text-justify {
     text-align: justify;
 
 }
 .small-img {
-    max-width: 9vh; /* Ajusta este valor según el tamaño deseado */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 9vh; 
+    height: auto; 
 }
 .fixed-img{
-    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-    height: 30vh; /* Ajustar altura fija */
+    width: 100%; 
+    height: 30vh; 
     object-fit: cover; 
 
 }

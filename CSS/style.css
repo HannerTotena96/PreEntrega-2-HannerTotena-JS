@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0ee;
+}
+
+.bg1 {
+  background-color: #f0f0ee;
+}
+
+.no-margin-padding {
+  margin: 0;
+  padding: 0;
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
+.nav-hover {
+  transition: color 0.3s ease;
+}
+.nav-hover:hover {
+  color: blue;
+  transition: color 0.3s ease;
+}
+
+.social-media a {
+  font-size: 1.6rem;
+  color: #000;
+}
+.social-media a:hover {
+  color: blue;
+}
+
+.bgimg img {
+  mix-blend-mode: multiply;
+}
+
+.letra {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.intro {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.custom-carousel-img {
+  height: 50vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.custom-card-img {
+  height: 50vh;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.custom-card {
+  border: 10px solid transparent;
+  border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.small-img {
+  max-width: 9vh;
+  height: auto;
+}
+
+.fixed-img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.Lyric {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-btn {
+  background-color: #d17a5f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.custom-btn:hover {
+  background-color: #c16a50;
+  transition: background-color 0.3s ease;
+}
+.custom-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(209, 122, 95, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,30 @@
 .custom-btn {
-    background-color: $terracota;
-    color: #fff;
-    padding: 0.5rem 1rem;
-  
-    &:hover {
+  background-color: $terracota;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+      transform: scale(1.1);
       background-color: darken($terracota, 10%);
-    }
   }
-  
+
+  &:focus {
+      outline: none;
+      box-shadow: 0 0 10px rgba(209, 122, 95, 0.5);
+  }
+}
+
+[data-aos="fade-right"],
+[data-aos="fade-left"] {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+[data-aos="fade-right"].aos-animate,
+[data-aos="fade-left"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}

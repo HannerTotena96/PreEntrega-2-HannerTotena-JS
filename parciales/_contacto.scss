@@ -1,0 +1,10 @@
+.custom-btn {
+    background-color: $terracota;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  
+    &:hover {
+      background-color: darken($terracota, 10%);
+    }
+  }
+  

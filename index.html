@@ -124,7 +124,37 @@
             </div>
         </div>
     </main>
+<section class="container my-5">
+  <h2 class="intro" data-aos="fade-up">Simulador de Cotización</h2>
+  <form id="formSimulador" class="row g-3 mt-3">
+    <div class="col-md-6">
+      <label for="servicio" class="form-label">Tipo de servicio</label>
+      <select id="servicio" class="form-select" required>
+        <option value="">Seleccione un servicio</option>
+        <option value="0">Análisis Químico</option>
+        <option value="1">Ensayo Metalúrgico</option>
+        <option value="2">Consultoría Minera</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="cantidad" class="form-label">Cantidad</label>
+      <input type="number" id="cantidad" class="form-control" min="1" required>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="urgente">
+        <label class="form-check-label" for="urgente">
+          Servicio urgente (20% adicional)
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Cotizar</button>
+    </div>
+  </form>
 
+  <div id="resultado" class="mt-4"></div>
+</section>
     <footer class="py-2">
         <section class="container">
             <div class="row text-center mb-4">
@@ -161,5 +191,6 @@
     <script>
         AOS.init();
     </script>
+    <script src="js/simulador.js"></script>
 </body>
 </html>
